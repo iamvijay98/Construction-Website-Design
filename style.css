@@ -23,7 +23,7 @@ html{
     border-radius: 10px;
 }
 header{
-    background-image:url(./images/premium_photo-1671808062726-2a7ffcd6109e.jpg);
+    background-image: url(./images/premium_photo-1671808062726-2a7ffcd6109e.jpg);
     width: 100vw;
     min-height: 100vh;
     background-position: center;
@@ -90,6 +90,7 @@ nav img{
     font-size: 25px;
     line-height: 1.5;
     font-weight: 500;
+    color: #fff;
 }
 .section-1 .btn{
     margin-top: 80px;
@@ -563,7 +564,7 @@ footer .footer-left p{
 @media screen and (max-width:1120px){
     .section-1{
         max-width:1000px;
-        padding: 150px 50px 50px;
+        padding: 250px 50px 50px;
     }
     nav{
         padding: 20px 30px;
@@ -742,6 +743,9 @@ footer .footer-left p{
         color: rgb(255, 255, 255);
         font-size: 18px;
     }
+    .section-1{
+        padding: 150px 50px 50px;
+    }
     
     .section-3{
         padding:50px 30px;
@@ -810,7 +814,7 @@ footer .footer-left p{
         width: 40px;
     }
     .section-1{
-        padding: 130px 15px 0px;
+        padding: 130px 15px;
     }
     .section-1 .header h1{
         font-size: 38px;
